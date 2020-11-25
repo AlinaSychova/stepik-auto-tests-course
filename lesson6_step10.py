@@ -1,8 +1,7 @@
 from selenium import webdriver
-import time 
-from selenium.webdriver.common.by import By
+import time
 
-try: 
+try:
     link = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
     browser.get(link)
